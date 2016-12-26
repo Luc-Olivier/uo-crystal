@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<startupinfo>
+  <shardname>Crystal Shard</shardname>
+  <clientpath>C:\Program Files (x86)\Electronic Arts\Ultima Online Classic</clientpath>
+  <saves>30</saves>
+  <rewards>60</rewards>
+  <skillcap>99999</skillcap>
+  <statcap>350</statcap>
+  <housedecay>360</housedecay>
+  <bonding>15</bonding>
+</startupinfo>

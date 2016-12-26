@@ -1,0 +1,18 @@
+﻿
+***ERROR LOG [20:48:53 Local]***
+An element with the same key already exists in the dictionary.
+System.ArgumentException: An element with the same key already exists in the dictionary.
+  at System.Collections.Generic.Dictionary`2[System.Int32,VitaNex.SuperGumps.UI.ListGumpEntry].Add (Int32 key, ListGumpEntry value) [0x00000] in <filename unknown>:0 
+  at System.Linq.ParallelEnumerable+DictionaryAggregateHelper`3[VitaNex.SuperGumps.UI.ListGumpEntry,System.Int32,VitaNex.SuperGumps.UI.ListGumpEntry].Reducer (System.Collections.Generic.Dictionary`2 d1, System.Collections.Generic.Dictionary`2 d2) [0x00000] in <filename unknown>:0 
+  at System.Linq.ParallelEnumerable+<Aggregate>c__AnonStorey1`3[VitaNex.SuperGumps.UI.ListGumpEntry,System.Collections.Generic.Dictionary`2[System.Int32,VitaNex.SuperGumps.UI.ListGumpEntry],System.Collections.Generic.Dictionary`2[System.Int32,VitaNex.SuperGumps.UI.ListGumpEntry]].<>m__0 (IList`1 list) [0x00000] in <filename unknown>:0 
+  at System.Linq.Parallel.ParallelExecuter.ProcessAndAggregate[ListGumpEntry,Dictionary`2] (System.Linq.Parallel.QueryNodes.QueryBaseNode`1 node, System.Func`1 seedFunc, System.Func`3 localCall, System.Action`1 call) [0x00000] in <filename unknown>:0 
+  at System.Linq.ParallelEnumerable.Aggregate[ListGumpEntry,Dictionary`2,Dictionary`2] (System.Linq.ParallelQuery`1 source, System.Func`1 seedFactory, System.Func`3 updateAccumulatorFunc, System.Func`3 combineAccumulatorsFunc, System.Func`2 resultSelector) [0x00000] in <filename unknown>:0 
+  at System.Linq.ParallelEnumerable.ToDictionary[ListGumpEntry,Int32,ListGumpEntry] (System.Linq.ParallelQuery`1 source, System.Func`2 keySelector, System.Func`2 elementSelector, IEqualityComparer`1 comparer) [0x00000] in <filename unknown>:0 
+  at System.Linq.ParallelEnumerable.ToDictionary[ListGumpEntry,Int32,ListGumpEntry] (System.Linq.ParallelQuery`1 source, System.Func`2 keySelector, System.Func`2 elementSelector) [0x00000] in <filename unknown>:0 
+  at VitaNex.SuperGumps.SuperGumpList`1[VitaNex.SuperGumps.UI.ListGumpEntry].GetListRange (Int32 index, Int32 length) [0x00000] in <filename unknown>:0 
+  at VitaNex.SuperGumps.SuperGumpList`1[VitaNex.SuperGumps.UI.ListGumpEntry].GetListRange () [0x00000] in <filename unknown>:0 
+  at VitaNex.SuperGumps.UI.MenuGump.CompileLayout (VitaNex.SuperGumps.SuperGumpLayout layout) [0x00000] in <filename unknown>:0 
+  at VitaNex.SuperGumps.SuperGump.<Send>m__3 () [0x00000] in <filename unknown>:0 
+  at VitaNex.VitaNexCore.TryCatchGet[SuperGump] (System.Func`1 func, System.Action`1 handler) [0x00000] in <filename unknown>:0 
+
+
